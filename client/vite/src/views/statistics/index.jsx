@@ -26,6 +26,11 @@ import Footer from '../dashboard/Components/Footer';
 // project imports
 import MainCard from 'ui-component/cards/MainCard';
 import Council from './council';
+import { IoIosPeople } from "react-icons/io";
+import { BsHouse } from "react-icons/bs";
+import { LiaAwardSolid } from "react-icons/lia";
+import { MdPeopleOutline } from "react-icons/md";
+import { HiOutlineDocumentReport } from "react-icons/hi";
 // Import Inter font
 import '@fontsource/inter';
 
@@ -46,7 +51,7 @@ const Statistics = () => {
   const menuItems = [
     {
       text: "Student's Council",
-      icon: <MdQueryStats />,
+      icon:<IoIosPeople />,
       component: <Council/>,
       subItems: [
       ],
@@ -54,21 +59,21 @@ const Statistics = () => {
   
     {
       text: 'Clubs & Committees',
-      icon: <MdQueryStats />,
+      icon: <BsHouse />,
       component: <StatsComponent/>,
       subItems: [
       ],
     },
     {
       text: 'Activity Reports',
-      icon: <FaLaptopCode />,
+      icon: <HiOutlineDocumentReport />,
       component: <InternshipComponent/>,
       subItems: [
       ],
     },
     {
       text: 'Awards & Achievements',
-      icon: <LiaUniversitySolid />,
+      icon: <LiaAwardSolid />,
       component: <HigherEdComponent/>,
       subItems: [
       ],
@@ -82,7 +87,7 @@ const Statistics = () => {
     },
     {
       text: 'Mentoring',
-      icon: <HiOutlineOfficeBuilding />,
+      icon: <MdPeopleOutline />,
       component: <CompanyComponent />,
       subItems: [],
     },

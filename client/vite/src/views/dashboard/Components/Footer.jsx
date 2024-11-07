@@ -18,7 +18,7 @@ const Footer = () => {
                  </div>
                 
                 
-                <span>The Training & Placement Cell caters to the industrial training needs of students and provides placement services to students through campus interviews. Many multinational and well-known Indian conglomerates regularly visit our campus every year for their requirement of high calibre human resources.</span>
+                <span>Sardar Patel Institute of Technology (S.P.I.T.) in Mumbai fosters academic excellence through innovative programs in engineering and technology. Known for its strong industry connections, skilled faculty, and vibrant student culture, S.P.I.T. offers cutting-edge education and entrepreneurial support, including a Technology and Business Incubation Centre funded by the Government of India.</span>
               </div>
             </div>
         <div className="footer-cta">
@@ -36,7 +36,7 @@ const Footer = () => {
               <div className="icony" style={{display:'flex'}}><h4>Call us</h4>
                 <CallRoundedIcon  className="icon" style={{color:'#fff', marginLeft:'10px'}} />
                  </div>
-                <span><a href="tel:9987001445" style={{ color: '#969595' }}>+91 9987001445</a></span>
+                <span><a href="tel:9987001445" style={{ color: '#969595' }}>+91 9987030881</a></span>
               </div>
             </div>
             <div className="single-cta">
@@ -44,7 +44,7 @@ const Footer = () => {
               <div className="icony" style={{display:'flex'}}><h4>Mail Us</h4>
                 <MailOutlineRoundedIcon  className="icon" style={{color:'#fff', marginLeft:'10px'}} />
                  </div>
-                <span><a href="mailto:tpo@spit.ac.in" style={{ color: '#969595' }}>tpo@spit.ac.in</a></span>
+                <span><a href="mailto:tpo@spit.ac.in" style={{ color: '#969595' }}>kiran.talele@spit.ac.in</a></span>
               </div>
             </div>
           </div>

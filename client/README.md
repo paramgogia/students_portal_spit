@@ -1,4 +1,4 @@
-Here's a more polished version of the README with proper formatting and a touch of style that you can directly copy and paste into your `README.md`:
+
 
 ---
 
