@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* general css: begins */
+.chalo body {
+  background-color: #000;
+}
+
+.chalo h2 {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 22px;
+  margin: 15px auto;
+  width: 650px;
+  color: #fff;
+  overflow: hidden;
+}
+
+.author {
+  font-size: 16px;
+  line-height: 22px;
+  color: #fcaf17;
+}
+
+.ch {
+  border-radius: 10px;
+  padding: 0 15px;
+  position: relative;
+  min-height: 180px;
+  margin: 15px auto;
+  width: 650px;
+  box-sizing: border-box;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.title {
+  display: block;
+  margin-right: 150px;
+}
+
+.author {
+  float: right;
+  width: 150px;
+}
+
+/* Tickets By Stage Chart */
+.gt {
+  display: none;
+}
+
+#tb-ch {
+  position: relative;
+  min-height: 180px;
+  overflow: hidden;
+}
+
+#tc-ch {
+  padding: 15px;
+}
+
+#tb-di {
+  float: left;
+  width: 476px;
+}
+
+#tb-di,
+#tc-di {
+  z-index: 2;
+  position: relative;
+}
+
+#lb {
+  width: 100px;
+  float: left;
+  text-align: left;
+}
+
+#lb ul {
+  margin: 15px 0 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#lb ul li {
+  height: 45px;
+  line-height: 45px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+#tb .pc {
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  display: block;
+  width: 100px;
+  height: 200px;
+  z-index: 1;
+}
+
+#tc .pc {
+  position: absolute;
+  top: 30px;
+  bottom: 0px;
+  left: 0px;
+  display: block;
+  width: 570px;
+  height: 200px;
+  z-index: 1;
+}
+
+.pc span {
+  display: inline-block;
+  line-height: 18px;
+}
+
+.pc span.count-wrap {
+  position: absolute;
+  z-index: 1;
+}
+
+.pc span.count {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.pc span.percent {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.st input[type='hidden'],
+.st span.tx {
+  float: left;
+}

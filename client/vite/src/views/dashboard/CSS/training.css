@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.ccr {
+    width: 100%;
+    margin: auto;
+    padding: 40px 20px;
+    background-color: #3e2078;
+}
+
+.c {
+    position: relative;
+    text-align: center;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 0 20px;
+    padding: 0;
+    background: #ffffff;
+}
+
+.c:hover {
+    transform: scale(1.05);
+}
+
+.c:active {
+    transform: scale(1.1);
+}
+
+.c-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.c:active .c-image {
+    transform: scale(1.1);
+}
+
+.cc {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(47, 47, 47, 0.5); /* Semi-transparent background */
+    color: #fff;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+    transition: background 0.3s ease-in-out;
+    z-index: 1; /* Ensures text is on top of the image */
+}
+
+.cc h2 {
+    margin: 0;
+    font-size: 1.75rem; /* Increased font size */
+    font-weight: 700;   /* Bolder font weight */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Inter';
+}
+
+.cc p {
+    margin: 10px 0 0;
+    font-size: 1.125rem; /* Slightly increased font size */
+    line-height: 1.6;
+    font-family: 'Inter';
+}
+
+/* button.card-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ff6f61; Attractive coral color 
+    border: none;
+    border-radius: 8px;
+    color: #3e;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+button.card-button:hover {
+    background-color: #ff4b3a; Darker shade for hover 
+    transform: scale(1.05);
+}
+
+button.card-button:active {
+    transform: scale(1.1);
+} */
+
+.slick-slide {
+    padding: 0 10px;
+}
+
+.slick-list {
+    margin: 0 -10px;
+}
+
+/* Unique class names for each card */
+.unique-card-1, .unique-card-2, .unique-card-3, 
+.unique-card-4, .unique-card-5, .unique-card-6 {
+    background: #ffffff;
+    position: relative;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    color: #aaa;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #ff6f61; /* Match dot color with button  */
+}
+
+.slick-prev::before, .slick-next::before {
+    display: none;
+}
+

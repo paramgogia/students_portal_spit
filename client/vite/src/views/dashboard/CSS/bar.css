@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.igFrameBar {
+  width: 400px;
+  height: 200px;
+  position: relative;
+  background: #f2f2f2;
+  margin: 15% auto 0px auto;
+  transform: translate(0, -50%);
+}
+
+.igFrameBar:before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+}
+
+.igFrameBar:after {
+  content: "";
+  width: 100%;
+  height: 50%;
+  background: transparent;
+  position: absolute;
+  top: 25%;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.igData {
+  width: 20px;
+  position: absolute;
+  bottom: 1px;
+  z-index: 99;
+  float: left;
+  background: #000;
+  transition: height 1.2s ease;
+}
+
+.igData1 { background: #9baec8; }
+.igData2 { background: #d9e1e8; }
+.igData3 { background: #2b90d9; }
+.igData4 { background: #8ec0e4; }
+.igData5 { background: #cadbe9; }
+.igData6 { background: #6aafe6; }
+.igData7 { background: #d6ecfa; }
+.igData8 { background: #a5dff9; }
+.igData9 { background: #dae9f4; }
+.igData10 { background: #d3e0f7; }
+
+@keyframes showBar1 { 0% { height: 0px; } 100% { height: 50%; } }
+@keyframes showBar2 { 0% { height: 0px; } 100% { height: 40%; } }
+@keyframes showBar3 { 0% { height: 0px; } 100% { height: 70%; } }
+@keyframes showBar4 { 0% { height: 0px; } 100% { height: 22%; } }
+@keyframes showBar5 { 0% { height: 0px; } 100% { height: 35%; } }
+@keyframes showBar6 { 0% { height: 0px; } 100% { height: 40%; } }
+@keyframes showBar7 { 0% { height: 0px; } 100% { height: 85%; } }
+@keyframes showBar8 { 0% { height: 0px; } 100% { height: 36%; } }
+@keyframes showBar9 { 0% { height: 0px; } 100% { height: 88%; } }
+@keyframes showBar10 { 0% { height: 0px; } 100% { height: 62%; } }
+
+.label {
+  position: absolute;
+  bottom: 100%;
+  font-size: 12px;
+  color: #333;
+  font-family: "Inter";
+  font-weight: 300;
+}
+
+.name {
+  position: absolute;
+  bottom: -55px;
+  font-size: 14px;
+  text-align: left;
+  font-family: "Inter";
+  font-weight: 300;
+  transform: rotate(30deg);
+}

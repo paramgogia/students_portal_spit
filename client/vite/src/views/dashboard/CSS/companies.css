@@ -1,0 +1,83 @@
+.prtn {
+  color: #1c4386;
+  display: flex;
+  flex-wrap: wrap;
+  width: full-width;
+  margin-bottom: 2rem;
+}
+
+.cntn {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.oupr {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.oupr h1 {
+  color: #1c4386;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.csl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.inner-csl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: marquee 40s linear infinite; /* Adjusted speed */
+}
+
+.sld {
+  min-width: 200px;
+  margin-right: 20px;
+  background: #FFF;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);
+  padding: 10px;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sld img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Duplicating the content for infinite effect */
+.csl .inner-csl {
+  display: flex;
+}
+
+.csl .inner-csl > .sld {
+  flex: none;
+}
+
+.inner-csl:after {
+  content: '';
+  display: inline-block;
+  width: 100%; /* Ensure the carousel wraps smoothly */
+}

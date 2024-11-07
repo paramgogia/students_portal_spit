@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.institute-card {
+    width: 100vw;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: 'Inter';
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-out;
+  }
+  
+  .slide-in {
+    transform: translateX(0);
+  }
+  
+  .slide-out {
+    transform: translateX(-100%);
+  }
+  
+  .c1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  
+  }
+  
+  .ct1 {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .ci1 img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px;
+  }
+  

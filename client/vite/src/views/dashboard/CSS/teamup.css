@@ -1,0 +1,98 @@
+/* import inter all weights and styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.team-content-section {
+  font-family: "Inter";
+    margin: 40px;
+  }
+  
+  .team-heading {
+    margin: 0;
+    color: #3e2078;
+    font-family: "Inter";
+    font-weight: 800;
+  }
+  
+  .team-caption {
+    color: #a5a5a5;
+    font-family: "Inter";
+    font-weight: 400;
+  }
+  
+  .team-member-card {
+    margin: 15px 0;
+    padding: 0;
+  }
+  
+  .team-member-card figure {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 30px;
+  }
+  
+  .team-member-img {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .team-member-description {
+    padding: 50px;
+    color: transparent;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    font-family: "Inter";
+  }
+  
+  .team-member-card:hover .team-member-description {
+    visibility: visible;
+    color: #fff;
+    background: #3e2078;
+    opacity: 0.9;
+    height: 100%;
+  }
+
+  .team-member-card:hover .team-member-description p{
+    font-family: "Inter";
+  }
+  
+  .team-member-description ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-links {
+    display: inline-block;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .team-member-card:hover .team-member-img {
+    transform: scale(1.1) rotate(1deg) translateY(12px);
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .team-member-name {
+    margin: 10px 0 0;
+    font-family: "Inter";
+    font-weight: 800;
+    color: #3e2078;
+  }
+  
+  .team-member-role {
+    font-family: "Inter";
+    font-weight: 400;
+    color: #999;
+  }
+  

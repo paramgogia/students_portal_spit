@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.bg-dark {
+    background-color: #343a40;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .min-vh-100 {
+    min-height: 100vh;
+  }
+  
+  .ct-highest, .ct-average, .ct-median {
+    display: block;
+    font-size: 4rem;
+    font-family: "Inter";
+    font-weight: 600;
+    color: #f8cb72;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .ct-highest:hover, .ct-average:hover, .ct-median:hover {
+    color: #ffeb3b;
+  }
+  
+  .ct-label {
+    display: block;
+    font-size: 1.25rem;
+    font-family: "Inter";
+    font-weight: 400;
+    color: #dcdcdc;
+    margin-top: 1rem;
+  }
+  
