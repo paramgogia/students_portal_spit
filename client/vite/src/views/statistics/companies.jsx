@@ -9,6 +9,8 @@ import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
+import minimen from './mentoring/Alumni Mentoring for mini project.pdf';
+import mini2 from './mentoring/Process Manual 1st year mentoring.pdf';
 // import { FaExternalLinkAlt } from "react-icons/fa";
 // import company1920 from './company_pdf/company19-20.pdf';
 // import company2021 from './company_pdf/company20-21.pdf';
@@ -18,10 +20,15 @@ import CardContent from '@mui/material/CardContent';
 const CompanyComponent = () => {
     const policies = [
       {
-        title: "Mentorship Details 2023-24",
-        file: "" ,
+        title: "Alumni Mentoring for Mini Project",
+        file: minimen ,
         bgColor: "#9b59b6"
         },
+        {
+          title: "Process Manual 1st Year Mentoring",
+          file: mini2 ,
+          bgColor: "#9b59b6"
+          },
 
     ];
     

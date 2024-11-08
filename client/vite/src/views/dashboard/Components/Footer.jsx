@@ -31,6 +31,7 @@ const Footer = () => {
                 <span>Bharatiya Vidya Bhavans Sardar Patel Institute of Technology Munshi Nagar, Andheri (West), Mumbai 400 058</span>
               </div>
             </div>
+            <div className="full-cta">
             <div className="single-cta">
               <div className="cta-text">
               <div className="icony" style={{display:'flex'}}><h4>Call us</h4>
@@ -47,7 +48,10 @@ const Footer = () => {
                 <span><a href="mailto:tpo@spit.ac.in" style={{ color: '#969595' }}>kiran.talele@spit.ac.in</a></span>
               </div>
             </div>
+            </div>
+            
           </div>
+          
         </div>
         </div>
      
@@ -73,7 +77,7 @@ const Footer = () => {
         </div>
       </div>
         <div className="copyright-area" style={{ alignItems: 'center' }}>
-          <div className="copyright-text" style={{ textAlign: 'center' }}>
+          <div className="copyright-text" style={{ textAlign: 'center', color:'#969595' }}>
             <p>&copy; Sardar Patel Institute of Technology, 2024. All Rights Reserved</p>
             <p>Designed by Param Gogia</p>
           </div>

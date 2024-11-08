@@ -17,6 +17,11 @@ import CardContent from '@mui/material/CardContent';
 // import hs2024 from './highered_pdf/hs2024.pdf';
 import award24 from './awards/Awards and Recognition 2023-24.pdf';
 import award23 from './awards/Awards and Recognition 2022-23.pdf';
+import award22 from './awards/awards21-22-1.pdf';
+import award21 from './awards/awards20-21-1.pdf';
+import award20 from './awards/awards19-20-1.pdf';
+import award19 from './awards/awards18-19-1.pdf';
+
 const HigherEdComponent = () => {
   const policies = [
     // {
@@ -34,6 +39,26 @@ const HigherEdComponent = () => {
     file: award23,
     bgColor: "#50c878"
     },
+  {
+  title: "Awards & Achievements 2021 - 22",
+  file: award22,
+  bgColor: "#f39c12"
+  },
+  {
+  title: "Awards & Achievements 2020 - 21",
+  file: award21,
+  bgColor: "#e74c3c"
+  },
+  {
+  title: "Awards & Achievements 2019 - 20",
+  file: award20,
+  bgColor: "#8e44ad"
+  },
+  {
+  title: "Awards & Achievements 2018 - 19",
+  file: award19,
+  bgColor: "#3498db"
+  }
    
   ];
     const handleFileDownload = (filePath) => {

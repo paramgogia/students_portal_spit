@@ -34,22 +34,22 @@ const Council = () => {
     //   bgColor: "#9b59b6"
     //   },
     {
-    title: "Student's Council 2023 - 24",
+    title: "Student's Council 2024 - 25",
     file: council25,
     bgColor: "#4a90e2"
     },
     {
-        title: "Student's Council 2022 - 23",
+        title: "Student's Council 2023 - 24",
         file: council24,
         bgColor: "#9b59b6"
         },
         {
-            title: "Student's Council 2021- 22",
+            title: "Student's Council 2022- 23",
             file: council23,
             bgColor: "#4a90e2"
             },
             {
-              title: "Student's Council 2023 - 24",
+              title: "Student's Council 2021 - 22",
               file: council22,
               bgColor: "#50c878"
               },

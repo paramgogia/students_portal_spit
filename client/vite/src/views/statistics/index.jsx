@@ -33,6 +33,7 @@ import { MdPeopleOutline } from "react-icons/md";
 import { HiOutlineDocumentReport } from "react-icons/hi";
 // Import Inter font
 import '@fontsource/inter';
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 // Policy Component
 
@@ -40,6 +41,11 @@ import '@fontsource/inter';
 const Statistics = () => {
   const [selectedComponent, setSelectedComponent] = useState(<StatsComponent />);
   const [openSubItems, setOpenSubItems] = useState({});
+
+// Use MUI’s useMediaQuery for responsiveness
+const isMobile = useMediaQuery('(max-width:600px)');
+const isTablet = useMediaQuery('(max-width:960px)');
+
 
   const handleToggleSubItems = (index) => {
     setOpenSubItems((prevOpen) => ({
@@ -121,17 +127,18 @@ const Statistics = () => {
 
   return( <>
     <MainCard sx={{ fontFamily: 'Inter, sans-serif' }}>
-      <Box sx={{ display: 'flex'}}>
+      <Box sx={{ display: 'flex', display: isTablet ? 'block' : 'flex' }}>
         <Box
           sx={{
-            width: 250,
+            width: isMobile ? '100%' : isTablet ? '100%' : '250px',
             backgroundColor: '#3e2078',
             boxShadow: 1,
             padding: 2,
             borderRadius: 2,
-            marginRight: 3,
+            marginRight: isTablet ? 0 : 3,
+            marginBottom: isTablet ? 3 : 0,
             overflowY: 'auto',
-            height: '90vh',
+            height: isTablet ? 'auto' : '90vh',
             '& *': { color: '#ffffff' },
           }}
         >

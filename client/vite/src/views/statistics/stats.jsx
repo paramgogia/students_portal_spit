@@ -33,21 +33,23 @@ const StatsComponent = () => {
     //   bgColor: "#9b59b6"
     //   },
     {
-    title: "Clubs and Committees 2023 - 24",
+    title: "Clubs and Committees 2024 - 25",
     file: club25,
     bgColor: "#4a90e2"
     },
     {
-    title: "Clubs and Committees 2022 - 23",
+    title: "Clubs and Committees 2023- 24",
     file: club24,
     bgColor: "#50c878"
     },
     {
-    title: "Clubs and Committees 2021 - 22",
+    title: "Clubs and Committees 2022 - 23",
     file: club23,
     bgColor: "#4a90e2"
     },
   ];
+
+  //add committees of 21-22 from the big pdf by splitting 
     const handleFileDownload = (filePath) => {
         // In a real application, you would implement your file download logic here
         console.log(`Downloading file from: ${filePath}`);
