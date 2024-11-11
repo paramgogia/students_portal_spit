@@ -31,6 +31,8 @@ import { BsHouse } from "react-icons/bs";
 import { LiaAwardSolid } from "react-icons/lia";
 import { MdPeopleOutline } from "react-icons/md";
 import { HiOutlineDocumentReport } from "react-icons/hi";
+import Research from './research';
+import { GiArchiveResearch } from "react-icons/gi";
 // Import Inter font
 import '@fontsource/inter';
 import useMediaQuery from '@mui/material/useMediaQuery';
@@ -95,6 +97,12 @@ const isTablet = useMediaQuery('(max-width:960px)');
       text: 'Mentoring',
       icon: <MdPeopleOutline />,
       component: <CompanyComponent />,
+      subItems: [],
+    },
+    {
+      text: 'Research Internship',
+      icon: <GiArchiveResearch />,
+      component: <Research />,
       subItems: [],
     },
   ];

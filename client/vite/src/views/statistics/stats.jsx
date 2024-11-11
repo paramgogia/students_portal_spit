@@ -25,6 +25,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import club25 from './clubs/Clubs and Committees 2024-25.pdf';
 import club24 from './clubs/Clubs and Committees 2023-24.pdf';
 import club23 from './clubs/Clubs and Committees 2022-23.pdf';
+import club22 from './clubs/Clubs_com_2021-22.pdf';
 const StatsComponent = () => {
   const policies = [
     // {
@@ -47,6 +48,12 @@ const StatsComponent = () => {
     file: club23,
     bgColor: "#4a90e2"
     },
+    {
+      title: "Clubs and Committees 2021 - 22",
+      file: club22,
+      bgColor: "#4a90e2"
+      },
+      
   ];
 
   //add committees of 21-22 from the big pdf by splitting 
