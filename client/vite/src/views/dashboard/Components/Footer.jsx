@@ -78,7 +78,7 @@ const Footer = () => {
       </div>
         <div className="copyright-area" style={{ alignItems: 'center' }}>
           <div className="copyright-text" style={{ textAlign: 'center', color:'#969595' }}>
-            <p>&copy; Sardar Patel Institute of Technology, 2024. All Rights Reserved</p>
+            <p>&copy;Sardar Patel Institute of Technology, 2024. All Rights Reserved</p>
             <p>Designed by Param Gogia</p>
           </div>
         </div>

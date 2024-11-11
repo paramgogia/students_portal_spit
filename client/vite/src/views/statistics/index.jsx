@@ -135,7 +135,7 @@ const isTablet = useMediaQuery('(max-width:960px)');
 
   return( <>
     <MainCard sx={{ fontFamily: 'Inter, sans-serif' }}>
-      <Box sx={{ display: 'flex', display: isTablet ? 'block' : 'flex' }}>
+      <Box sx={{  display: isTablet ? 'block' : 'flex' }}>
         <Box
           sx={{
             width: isMobile ? '100%' : isTablet ? '100%' : '250px',
