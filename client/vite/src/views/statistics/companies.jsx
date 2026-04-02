@@ -13,6 +13,8 @@ import minimen from './mentoring/Alumni Mentoring for mini project.pdf';
 import mini2 from './mentoring/Process Manual 1st year mentoring.pdf';
 import mini3 from './mentoring/1st year mentoring report.pdf';
 import mini4 from './mentoring/2nd year mentoring report.pdf';
+import mini5 from './mentoring/Mentoring of Junior Students 2025-26 Odd Sem.pdf';
+import mini6 from './mentoring/New Beginnings Mentoring Report 2025-26.pdf';
 
 // import { FaExternalLinkAlt } from "react-icons/fa";
 // import company1920 from './company_pdf/company19-20.pdf';
@@ -34,12 +36,22 @@ const CompanyComponent = () => {
           },
  {
           title: "NEW BEGINNINGS MENTORSHIP PROGRAM 2024-25 (First Year Mentoring)",
-          file: mini2 ,
+          file: mini3 ,
           bgColor: "#9b59b6"
           }, {
           title: "GENERAL MENTORSHIP PROGRAM 2024-25 (Second Year Mentoring)",
-          file: mini2 ,
+          file: mini4 ,
           bgColor: "#9b59b6"
+          },
+          {
+            title: "MENTORING OF JUNIOR STUDENTS 2025-26 ODD SEM",
+            file: mini5,
+            bgColor: "#9b59b6"
+          },
+          {
+            title: "NEW BEGINNINGS MENTORSHIP PROGRAM 2025-26 ODD SEM",
+            file: mini6,
+            bgColor: "#9b59b6"
           }
     ];
     
